@@ -1,0 +1,70 @@
+[
+    {
+        "id": "1",
+        "Picture": "https://demigos.com/media/cache/81/32/813275bdd7c07e234cacf2179f2e6e06.jpg",
+        "title": "Home Healthcare Services",
+        "Hints": "Home healthcare provides medical and non-medical services to individuals in their homes",
+        "Description": " It typically involves short-term care, like what would be needed should you need help recovering from an injury or illness. Some tasks that a home health care provider would assist you with include physical therapy, occupational therapy, wound cleaning, medical social work, and often companion care as well.",
+        "Img": "https://yt3.googleusercontent.com/tcciP96ERefHBxEfjoJ1rpHMkxViJnUBmEdsLqQTcmNaeJbVE8nEMvG_gIsRfCR3_AI8kfpqxw=s900-c-k-c0x00ffffff-no-rj",
+        "Name": "Dr.Tasnim Jara",
+        "Details": "Dr. Tasnim Jara is the Co-Founder and Chief Medical Officer at Shohay Health" ,
+        "Price": "500"
+    },
+    {
+        "id": "2",
+        "Picture": "https://s01.sgp1.digitaloceanspaces.com/large/910320-72746-bwrvdxzdpe-1509615350.jpeg",
+        "title": "Public Health Services",
+        "Hints": "Public health services focus on promoting and protecting the health of communities ",
+        "Description": "Public health is the science of protecting and improving the health of people and their communities. This work is achieved by promoting healthy lifestyles, researching disease and injury prevention, and detecting, preventing and responding to infectious diseases.",
+        "Img": "https://emch.com.bd/wp-content/uploads/2021/06/Dr.-Md.-Abu-Baker-768x768.jpg",
+        "Name": " Dr. Md. Abu Baker",
+        "Details": "Assistant Professor he was medical officer and registrar in the department of Skin & VD." ,
+        "Price": "100"
+
+    },
+    {
+        "id": "3",
+        "Picture": "https://newsinfo.inquirer.net/files/2023/04/MENTAL-HEALTH-620x349.jpeg",
+        "title": "Mental Health Services",
+        "Hints": "Mental health services encompass prevention, treatment, and support for mental health conditions.",
+        "Description": "Mental health is a significant factor for a sound and productive life; nevertheless, mental disorders do not often receive adequate research attention and are not addressed as a serious public health issue in countries such as Bangladesh.",
+        "Img": "https://seatbooking.com.bd/wp-content/uploads/2017/07/1598859567.jpg",
+        "Name": "Dr. Mohiuddin Ahmed",
+        "Details": "Dr. Mohiuddin Ahmed is a Specialist in Internal Medicine & ICU in Dhaka. ",
+        "Price": "450"
+    },
+    {
+        "id": "4",
+        "Picture": "https://www.snswlhd.health.nsw.gov.au/WWW_MLHD/media/Images/Services/Hero-Dental-(Oral)-Health-Services2.jpg",
+        "title": "Dental and Oral Health Services",
+        "Hints": "These services include preventive dental care, routine check-ups, dental treatments, orthodontics, and oral surgery.",
+        "Description": "The Oral Health Service provides specialist treatment and advice on treatment for patients suffering from oral conditions which are beyond the scope of general practice dentists.Comprehensive dental care is provided for patients who are mentally, physically or intellectually compromised to an extent where their dental treatment cannot be provided in the private sector",
+        "Img": "https://seatbooking.com.bd/wp-content/uploads/2017/05/Dr.-Isabela-Kabir.jpg",
+        "Name": "Dr. Isabela Kabir",
+        "Details": "Dr. Isabela Kabir is a Skin, Allergy, Leprosy, Sexual Diseases Specialist doctor in Dhaka." ,
+        "Price": "400"
+    },
+    {
+        "id": "5",
+        "Picture": "https://www.cosumnescsd.gov/ImageRepository/Document?documentID=19081",
+        "title": "Emergency Medical Services",
+        "Hints": "EMS provides immediate medical care during emergencies, such as accidents, medical crises, or natural disasters.",
+        "Description": "Emergency medical conditions typically occur through a sudden insult to the body or mind, often through injury, infection, obstetric complications, or chemical imbalance; they may occur as the result of persistent neglect of chronic conditions.",
+        "Img": "https://www.sakraworldhospital.com/doctor-images/dr-adil-sadiq-heart-specialist-in-bangalore.png",
+        "Name": "Dr. Adil Sadiq",
+        "Details": "Dr. Adil Sadiq holds a remarkable position as the exclusive cardiac surgeon in the entire Southern region of India",
+        "Price": "500"  
+    },
+    {
+        "id": "6",
+        "Picture": "https://www.brookings.edu/wp-content/uploads/2020/05/telehealth_telemedicine_virtual-health-care.jpg",
+        "title": "Telemedicine and Telehealth Services",
+        "Hints": "Telemedicine utilizes technology to provide healthcare remotely, allowing individuals to consult with healthcare professionals",
+        "Description": "When thinking about healthcare, most of us conjure up images of office visits or trips to the ER. Whether it's for a routine check-up, lab tests, an outpatient procedure or major surgery, the norm is for patients and caregivers to leave their homes (often sitting in traffic or rushing from work) to meet their doctor at a healthcare facility of some kind",
+        "Img": "https://emch.com.bd/wp-content/uploads/2021/06/Dr-Haroon-Or-Rashid-768x768.jpg",
+        "Name": "Dr. Md. Haroon Ur Rashid ",
+        "Details": "Dr. Md. Haroon Ur Rashid  is a Professor of Pulmonology in Enam Medical College Hospital.",
+        "Price": "300"  
+    }
+
+]

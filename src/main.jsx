@@ -11,6 +11,7 @@ import Home from './Pages/Home/Home';
 import FindDoctor from './Pages/FindDoctor/FindDoctor';
 import Errorpage from './Pages/ErrorPage/Errorpage';
 import Departments from './Pages/Departments/Departments';
+import Health from './Pages/Health/Health';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: () => fetch('/healths.json')
       },
       {
         path: "/findDoctor",
@@ -28,7 +30,13 @@ const router = createBrowserRouter([
       {
         path: "/departments",
         element: <Departments></Departments>
+      },
+      {
+        path: "/healths/:id",
+        element: <Health></Health>,
+        loader: () => fetch('/healths.json')
       }
+
     ]
   },
 ]);
