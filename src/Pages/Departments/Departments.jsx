@@ -1,9 +1,12 @@
+import { useLoaderData } from "react-router-dom";
+import Depart from "../../Components/Depart/Depart";
 
 
 const Departments = () => {
+    const departments = useLoaderData()
     return (
         <div>
-           <h1>this is department</h1>
+            <Depart departments={departments}></Depart>
         </div>
     );
 };
