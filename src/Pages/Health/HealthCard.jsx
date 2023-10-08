@@ -5,14 +5,15 @@ const HealthCard = ({health}) => {
     const {Picture, title, Hints, Price, Description} = health ;
 
     return (
-        <div className="h-[130vh] ml-28">
-          <div>
-            <img className="h-[500px] w-[1000px]" src={Picture} alt="" />
-          </div>
-          <div>
-             <h2 className="text-2xl font-bold mt-4 mb-3 underline">{title}</h2>
-             <p className="mr-20">{Description}</p>
-          </div>
+        <div className="h-[vh] ml-20 mr-6">
+         <div className="card mr-10 h-[80vh] bg-base-100 shadow-xl image-full">
+  <figure><img className="w-[1200px] h-[500px]" src={Picture} alt="Shoes" /></figure>
+  <div className="card-body mt-[200px]">
+    <h2 className="card-title text-center justify-center text-3xl font-bold">{title}</h2>
+    <p className=" text-center mt-5">{Description}</p>
+    
+  </div>
+</div>
         </div>
     );
 };

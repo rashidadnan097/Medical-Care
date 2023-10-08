@@ -25,7 +25,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/findDoctor",
-        element: <FindDoctor></FindDoctor>
+        element: <FindDoctor></FindDoctor>,
+        loader: () => fetch('/healths.json')    
       },
       {
         path: "/departments",

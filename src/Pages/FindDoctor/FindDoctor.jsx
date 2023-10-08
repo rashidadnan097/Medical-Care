@@ -1,8 +1,11 @@
+import { useLoaderData } from "react-router-dom";
+import Doctors from "../../Components/Doctors/Doctors";
 
 const FindDoctor = () => {
+    const doctors = useLoaderData()
     return (
         <div>
-            <h1>this is find doctor section</h1>
+            <Doctors doctors={doctors}></Doctors>
         </div>
     );
 };

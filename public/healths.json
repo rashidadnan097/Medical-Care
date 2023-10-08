@@ -8,7 +8,10 @@
         "Img": "https://yt3.googleusercontent.com/tcciP96ERefHBxEfjoJ1rpHMkxViJnUBmEdsLqQTcmNaeJbVE8nEMvG_gIsRfCR3_AI8kfpqxw=s900-c-k-c0x00ffffff-no-rj",
         "Name": "Dr.Tasnim Jara",
         "Details": "Dr. Tasnim Jara is the Co-Founder and Chief Medical Officer at Shohay Health" ,
-        "Price": "500"
+        "Price": "500",
+        "Token": "Pediatric",
+        "Photo": "https://regalhospital.com/wp-content/uploads/2022/03/Urology-1.jpg",
+        "More": "Pediatrics is the branch of medicine dealing with the health and medical care of infants, children, and adolescents from birth up to the age of 18."
     },
     {
         "id": "2",
@@ -19,7 +22,10 @@
         "Img": "https://emch.com.bd/wp-content/uploads/2021/06/Dr.-Md.-Abu-Baker-768x768.jpg",
         "Name": " Dr. Md. Abu Baker",
         "Details": "Assistant Professor he was medical officer and registrar in the department of Skin & VD." ,
-        "Price": "100"
+        "Price": "100",
+        "Token": "Pulmonary",
+        "Photo": "https://www.ucsfbenioffchildrens.org/-/media/project/ucsf/ucsf-bch/images/medical-tests/hero/pulmonary-angiography-708x556-2x.jpg",
+        "More": "Pulmonary hypertension is a condition that affects the blood vessels in the lungs. It develops when the blood pressure in your lungs is higher than normal."
 
     },
     {
@@ -31,7 +37,10 @@
         "Img": "https://seatbooking.com.bd/wp-content/uploads/2017/07/1598859567.jpg",
         "Name": "Dr. Mohiuddin Ahmed",
         "Details": "Dr. Mohiuddin Ahmed is a Specialist in Internal Medicine & ICU in Dhaka. ",
-        "Price": "450"
+        "Price": "450",
+        "Token": "Dental",
+        "Photo": "https://news.harvard.edu/wp-content/uploads/2023/02/20230208_dental-1200x800.jpg",
+        "More": "Dentistry, the profession concerned with the prevention and treatment of oral disease, including diseases of the teeth and supporting structures and diseases of the soft tissues of the mouth"
     },
     {
         "id": "4",
@@ -42,7 +51,10 @@
         "Img": "https://seatbooking.com.bd/wp-content/uploads/2017/05/Dr.-Isabela-Kabir.jpg",
         "Name": "Dr. Isabela Kabir",
         "Details": "Dr. Isabela Kabir is a Skin, Allergy, Leprosy, Sexual Diseases Specialist doctor in Dhaka." ,
-        "Price": "400"
+        "Price": "400",
+        "Token": "Cardiology",
+        "Photo": "https://thumbs.dreamstime.com/b/modern-medicine-cardiology-concept-d-elements-collage-97829593.jpg",
+        "More": "cardiology, medical specialty dealing with the diagnosis and treatment of diseases and abnormalities involving the heart and blood vessels."
     },
     {
         "id": "5",
@@ -53,7 +65,10 @@
         "Img": "https://www.sakraworldhospital.com/doctor-images/dr-adil-sadiq-heart-specialist-in-bangalore.png",
         "Name": "Dr. Adil Sadiq",
         "Details": "Dr. Adil Sadiq holds a remarkable position as the exclusive cardiac surgeon in the entire Southern region of India",
-        "Price": "500"  
+        "Price": "500",
+        "Token": "Neurology",
+        "Photo": "https://www.adhikarilifeline.com/wp-content/uploads/2022/09/neurosurgeon-neurologist.jpg",
+        "More": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. "  
     },
     {
         "id": "6",
@@ -64,7 +79,9 @@
         "Img": "https://emch.com.bd/wp-content/uploads/2021/06/Dr-Haroon-Or-Rashid-768x768.jpg",
         "Name": "Dr. Md. Haroon Ur Rashid ",
         "Details": "Dr. Md. Haroon Ur Rashid  is a Professor of Pulmonology in Enam Medical College Hospital.",
-        "Price": "300"  
+        "Price": "300",
+        "Token": "X-ray",
+        "Photo": "https://www.glmi.com/static/sitefiles/images/x3.jpeg",
+        "More": "An X-ray is a quick, painless test that produces images of the structures inside your body — particularly your bones. X-ray beams pass through your body."  
     }
-
 ]
