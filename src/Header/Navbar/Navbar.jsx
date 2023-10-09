@@ -1,8 +1,19 @@
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
+import { useContext } from "react";
+import { AuthContext } from "../../Hook/AuthProvider";
 
 
 const Navbar = () => {
+  const {user, logOut} = useContext(AuthContext);
+
+  console.log(user);
+
+  const handleLogOut = () => {
+    logOut()
+    .then()
+  }
+
     return (
         <div>
             <nav className="flex justify-between items-center   ">
@@ -39,6 +50,7 @@ const Navbar = () => {
                       Departments
                       </NavLink>
                     </li>
+                   {user &&  <button onClick={handleLogOut} className="btn btn-active btn-ghost text-xl text-semibold">Logout</button>}
 
                 </ul>
 

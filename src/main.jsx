@@ -12,6 +12,9 @@ import FindDoctor from './Pages/FindDoctor/FindDoctor';
 import Errorpage from './Pages/ErrorPage/Errorpage';
 import Departments from './Pages/Departments/Departments';
 import Health from './Pages/Health/Health';
+import AuthProvider from './Hook/AuthProvider';
+import Login from './Components/Login/Login';
+import Resister from './Components/Resister/Resister';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,7 +40,17 @@ const router = createBrowserRouter([
         path: "/healths/:id",
         element: <Health></Health>,
         loader: () => fetch('/healths.json')
+      },
+      {
+        path: "/login",
+        element: <Login></Login>
+        
+      },
+      {
+        path: "/resister",
+        element: <Resister></Resister>
       }
+
 
     ]
   },
@@ -45,6 +58,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+     <AuthProvider>
      <RouterProvider router={router} />
+     </AuthProvider>
   </React.StrictMode>,
 )

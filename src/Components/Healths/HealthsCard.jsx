@@ -5,7 +5,7 @@ const HealthsCard = ({health}) => {
     const {id, Picture, title, Hints, Price} = health ;
     return (
         <div>
-        <Link to={`/healths/${id}`}> 
+        <Link  to={`/healths/${id}`}> 
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
   <figure><img className="w-[345px] h-[150px]" src={Picture}/></figure>
   <div className="card-body">
